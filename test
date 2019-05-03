@@ -1,0 +1,112 @@
+<configuration><dllmap dll="i:cygwin1.dll" os="!windows" target="libc.so.6" />
+	<dllmap dll="libc" os="!windows" target="libc.so.6" />
+	<dllmap dll="intl" os="!windows" target="libc.so.6" />
+	<dllmap dll="libintl" name="bind_textdomain_codeset" os="solaris" target="libc.so.6" />
+	<dllmap dll="i:libxslt.dll" os="!windows" target="libxslt.so" />
+	<dllmap dll="i:odbc32.dll" os="!windows" target="libodbc.so" />
+	<dllmap dll="oci" os="!windows" target="libclntsh.so" />
+	<dllmap dll="db2cli" os="!windows" target="libdb2_36.so" />
+	<dllmap dll="MonoPosixHelper" os="!windows" target="$mono_libdir/libMonoPosixHelper.so" />
+	<dllmap dll="System.Native" os="!windows" target="$mono_libdir/libmono-system-native.so" />
+	<dllmap dll="libmono-btls-shared" os="!windows" target="$mono_libdir/libmono-btls-shared.so" />
+	<dllmap dll="i:msvcrt" os="!windows" target="libc.so.6" />
+	<dllmap dll="i:msvcrt.dll" os="!windows" target="libc.so.6" />
+	<dllmap dll="sqlite" os="!windows" target="libsqlite.so.0" />
+	<dllmap dll="sqlite3" os="!windows" target="libsqlite3.so.0" />
+	<dllmap dll="libX11" os="!windows" target="libX11.so.6" />
+	<dllmap dll="libgdk-x11-2.0" os="!windows" target="libgdk-x11-2.0.so.0" />
+	<dllmap dll="libgdk_pixbuf-2.0" os="!windows" target="libgdk_pixbuf-2.0.so.0" />
+	<dllmap dll="libgtk-x11-2.0" os="!windows" target="libgtk-x11-2.0.so.0" />
+	<dllmap dll="libglib-2.0" os="!windows" target="libglib-2.0.so.0" />
+	<dllmap dll="libgobject-2.0" os="!windows" target="libgobject-2.0.so.0" />
+	<dllmap dll="libgnomeui-2" os="!windows" target="libgnomeui-2.so.0" />
+	<dllmap dll="librsvg-2" os="!windows" target="librsvg-2.so.2" />
+	<dllmap dll="libXinerama" os="!windows" target="libXinerama.so.1" />
+	<dllmap dll="libasound" os="!windows" target="libasound.so.2" />
+	<dllmap dll="libcairo-2.dll" os="!windows" target="libcairo.so.2" />
+	<dllmap dll="libcups" os="!windows" target="libcups.so.2" />
+	<dllmap dll="i:kernel32.dll">
+		<dllentry dll="__Internal" name="CopyMemory" target="mono_win32_compat_CopyMemory" />
+		<dllentry dll="__Internal" name="FillMemory" target="mono_win32_compat_FillMemory" />
+		<dllentry dll="__Internal" name="MoveMemory" target="mono_win32_compat_MoveMemory" />
+		<dllentry dll="__Internal" name="ZeroMemory" target="mono_win32_compat_ZeroMemory" />
+	</dllmap>
+	<dllmap dll="gdiplus" os="!windows" target="libgdiplus.so.0" />
+	<dllmap dll="gdiplus.dll" os="!windows" target="libgdiplus.so.0" />
+	<dllmap dll="gdi32" os="!windows" target="libgdiplus.so.0" />
+	<dllmap dll="gdi32.dll" os="!windows" target="libgdiplus.so.0" />
+</configuration><configuration><dllmap dll="i:cygwin1.dll" os="!windows" target="libc.so.6" />
+	<dllmap dll="libc" os="!windows" target="libc.so.6" />
+	<dllmap dll="intl" os="!windows" target="libc.so.6" />
+	<dllmap dll="libintl" name="bind_textdomain_codeset" os="solaris" target="libc.so.6" />
+	<dllmap dll="i:libxslt.dll" os="!windows" target="libxslt.so" />
+	<dllmap dll="i:odbc32.dll" os="!windows" target="libodbc.so" />
+	<dllmap dll="oci" os="!windows" target="libclntsh.so" />
+	<dllmap dll="db2cli" os="!windows" target="libdb2_36.so" />
+	<dllmap dll="MonoPosixHelper" os="!windows" target="$mono_libdir/libMonoPosixHelper.so" />
+	<dllmap dll="System.Native" os="!windows" target="$mono_libdir/libmono-system-native.so" />
+	<dllmap dll="libmono-btls-shared" os="!windows" target="$mono_libdir/libmono-btls-shared.so" />
+	<dllmap dll="i:msvcrt" os="!windows" target="libc.so.6" />
+	<dllmap dll="i:msvcrt.dll" os="!windows" target="libc.so.6" />
+	<dllmap dll="sqlite" os="!windows" target="libsqlite.so.0" />
+	<dllmap dll="sqlite3" os="!windows" target="libsqlite3.so.0" />
+	<dllmap dll="libX11" os="!windows" target="libX11.so.6" />
+	<dllmap dll="libgdk-x11-2.0" os="!windows" target="libgdk-x11-2.0.so.0" />
+	<dllmap dll="libgdk_pixbuf-2.0" os="!windows" target="libgdk_pixbuf-2.0.so.0" />
+	<dllmap dll="libgtk-x11-2.0" os="!windows" target="libgtk-x11-2.0.so.0" />
+	<dllmap dll="libglib-2.0" os="!windows" target="libglib-2.0.so.0" />
+	<dllmap dll="libgobject-2.0" os="!windows" target="libgobject-2.0.so.0" />
+	<dllmap dll="libgnomeui-2" os="!windows" target="libgnomeui-2.so.0" />
+	<dllmap dll="librsvg-2" os="!windows" target="librsvg-2.so.2" />
+	<dllmap dll="libXinerama" os="!windows" target="libXinerama.so.1" />
+	<dllmap dll="libasound" os="!windows" target="libasound.so.2" />
+	<dllmap dll="libcairo-2.dll" os="!windows" target="libcairo.so.2" />
+	<dllmap dll="libcups" os="!windows" target="libcups.so.2" />
+	<dllmap dll="i:kernel32.dll">
+		<dllentry dll="__Internal" name="CopyMemory" target="mono_win32_compat_CopyMemory" />
+		<dllentry dll="__Internal" name="FillMemory" target="mono_win32_compat_FillMemory" />
+		<dllentry dll="__Internal" name="MoveMemory" target="mono_win32_compat_MoveMemory" />
+		<dllentry dll="__Internal" name="ZeroMemory" target="mono_win32_compat_ZeroMemory" />
+	</dllmap>
+	<dllmap dll="gdiplus" os="!windows" target="libgdiplus.so.0" />
+	<dllmap dll="gdiplus.dll" os="!windows" target="libgdiplus.so.0" />
+	<dllmap dll="gdi32" os="!windows" target="libgdiplus.so.0" />
+	<dllmap dll="gdi32.dll" os="!windows" target="libgdiplus.so.0" />
+</configuration><configuration><dllmap dll="i:cygwin1.dll" os="!windows" target="libc.so.6" />
+	<dllmap dll="libc" os="!windows" target="libc.so.6" />
+	<dllmap dll="intl" os="!windows" target="libc.so.6" />
+	<dllmap dll="libintl" name="bind_textdomain_codeset" os="solaris" target="libc.so.6" />
+	<dllmap dll="i:libxslt.dll" os="!windows" target="libxslt.so" />
+	<dllmap dll="i:odbc32.dll" os="!windows" target="libodbc.so" />
+	<dllmap dll="oci" os="!windows" target="libclntsh.so" />
+	<dllmap dll="db2cli" os="!windows" target="libdb2_36.so" />
+	<dllmap dll="MonoPosixHelper" os="!windows" target="$mono_libdir/libMonoPosixHelper.so" />
+	<dllmap dll="System.Native" os="!windows" target="$mono_libdir/libmono-system-native.so" />
+	<dllmap dll="libmono-btls-shared" os="!windows" target="$mono_libdir/libmono-btls-shared.so" />
+	<dllmap dll="i:msvcrt" os="!windows" target="libc.so.6" />
+	<dllmap dll="i:msvcrt.dll" os="!windows" target="libc.so.6" />
+	<dllmap dll="sqlite" os="!windows" target="libsqlite.so.0" />
+	<dllmap dll="sqlite3" os="!windows" target="libsqlite3.so.0" />
+	<dllmap dll="libX11" os="!windows" target="libX11.so.6" />
+	<dllmap dll="libgdk-x11-2.0" os="!windows" target="libgdk-x11-2.0.so.0" />
+	<dllmap dll="libgdk_pixbuf-2.0" os="!windows" target="libgdk_pixbuf-2.0.so.0" />
+	<dllmap dll="libgtk-x11-2.0" os="!windows" target="libgtk-x11-2.0.so.0" />
+	<dllmap dll="libglib-2.0" os="!windows" target="libglib-2.0.so.0" />
+	<dllmap dll="libgobject-2.0" os="!windows" target="libgobject-2.0.so.0" />
+	<dllmap dll="libgnomeui-2" os="!windows" target="libgnomeui-2.so.0" />
+	<dllmap dll="librsvg-2" os="!windows" target="librsvg-2.so.2" />
+	<dllmap dll="libXinerama" os="!windows" target="libXinerama.so.1" />
+	<dllmap dll="libasound" os="!windows" target="libasound.so.2" />
+	<dllmap dll="libcairo-2.dll" os="!windows" target="libcairo.so.2" />
+	<dllmap dll="libcups" os="!windows" target="libcups.so.2" />
+	<dllmap dll="i:kernel32.dll">
+		<dllentry dll="__Internal" name="CopyMemory" target="mono_win32_compat_CopyMemory" />
+		<dllentry dll="__Internal" name="FillMemory" target="mono_win32_compat_FillMemory" />
+		<dllentry dll="__Internal" name="MoveMemory" target="mono_win32_compat_MoveMemory" />
+		<dllentry dll="__Internal" name="ZeroMemory" target="mono_win32_compat_ZeroMemory" />
+	</dllmap>
+	<dllmap dll="gdiplus" os="!windows" target="libgdiplus.so.0" />
+	<dllmap dll="gdiplus.dll" os="!windows" target="libgdiplus.so.0" />
+	<dllmap dll="gdi32" os="!windows" target="libgdiplus.so.0" />
+	<dllmap dll="gdi32.dll" os="!windows" target="libgdiplus.so.0" />
+</configuration>
